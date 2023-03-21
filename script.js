@@ -70,7 +70,6 @@ getRepos();
 // display list of all user's public repos
 const displayRepos = (repos) => {
   const userHome = `https://github.com/${username}`;
-  filterInput.classList.remove("hide");
   for (const repo of repos) {
     if (repo.fork && hideForks) {
       continue;
@@ -113,22 +112,6 @@ const displayRepos = (repos) => {
     repoList.append(listItem);
   }
 };
-
-// dynamic search
-filterInput.addEventListener("input", (e) => {
-  const search = e.target.value;
-  const repos = document.querySelectorAll(".repo");
-  const searchLowerText = search.toLowerCase();
-
-  for (const repo of repos) {
-    const lowerText = repo.innerText.toLowerCase();
-    if (lowerText.includes(searchLowerText)) {
-      repo.classList.remove("hide");
-    } else {
-      repo.classList.add("hide");
-    }
-  }
-});
 
 // for programming language icons
 const devicons = {
