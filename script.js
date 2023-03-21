@@ -179,6 +179,7 @@ const devicons = {
   Rust: '<i class="devicon-rust-plain colored" style="color: #DEA584"></i> Rust',
   Sass: '<i class="devicon-sass-original colored"></i> Sass',
   Scala: '<i class="devicon-scala-plain colored"></i> Scala',
+  ShaderGraph: '<i class="devicon-unity-plain colored"></i> ShaderGraph',
   Shell:
     '<i class="devicon-bash-plain colored" style="color: #89E051"></i> Shell',
   Solidity: '<i class="devicon-solidity-plain colored"></i> Solidity',
