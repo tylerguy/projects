@@ -116,8 +116,8 @@ const devicons = {
   Github: '<i class="devicon-github-plain" style="color: #1688f0"></i>',
   Chrome: '<i class="devicon-chrome-plain" style="color: #1688f0"></i>',
   Assembly: '<i class="devicon-labview-plain colored"></i> Assembly',
-  "C#": '<i class="devicon-csharp-plain colored"></i> C#',
-  "C++": '<i class="devicon-cplusplus-plain colored"></i> C++',
+  "C#": '<i class="devicon-csharp-plain"></i> C#',
+  "C++": '<i class="devicon-cplusplus-plain"></i> C++',
   C: '<i class="devicon-c-plain colored"></i> C',
   Clojure: '<i class="devicon-clojure-plain colored"></i> C',
   CoffeeScript:
